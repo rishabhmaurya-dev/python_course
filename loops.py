@@ -170,3 +170,31 @@
 # print(str[::-1])
 
 # ////////////////////////////////////////
+
+# string me digits count
+
+# str = "rish2abh123"
+# count = 0
+# for i in str:
+#   if i >= "0" and i <= "9":
+#     count += 1
+# print(count)
+# ......................................
+# str = "rish2abh123"
+# count = 0
+# for i in str:
+#   if i.isdigit():
+#     count += 1  
+# print(count)
+
+# ////////////////////////////////////////
+
+# Count spaces
+# str = "rish abh 123"
+# count = 0
+# for i in str:
+#   if i == " ":
+#     count += 1
+# print(count)
+
+# ////////////////////////////////////////
