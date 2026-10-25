@@ -240,7 +240,7 @@
 # cart_items = [
 #   {
 #     "name" : "rice",
-#     "price" : 120,
+#     "price" : 300,
 #     "quantity" : 3
 #   },
 #   {
@@ -255,8 +255,12 @@
 #   }
 # ]
 # exp_item_price = cart_items[0]["price"]
+# exp_item = cart_items[0]
 # for i in cart_items:
 #   price = i["price"]
 #   if price > exp_item_price:
 #     exp_item_price = price
-#     print(i)
+#     exp_item = i
+# print("Expensive item : ",exp_item)
+
+# /////////////////////////////////////////////
