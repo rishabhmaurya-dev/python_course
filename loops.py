@@ -198,3 +198,65 @@
 # print(count)
 
 # ////////////////////////////////////////
+
+# email = "risahbh@gmailcom"
+
+
+# if "@" and "." in email:
+#   print("Valid email")
+# else:
+#   print("Invalid email")
+
+# /////////////////////////////////////////
+
+# cart_items = [
+#   {
+#     "name" : "rice",
+#     "price" : 120,
+#     "quantity" : 3
+#   },
+#   {
+#     "name" : "daal",
+#     "price" : 320,
+#     "quantity" : 2
+#   },
+#   {
+#     "name" : "daal",
+#     "price" : 310,
+#     "quantity" : 2
+#   }
+# ]
+# total_bill = 0
+# for i in cart_items:
+#   price = i["price"]
+#   quantity = i["quantity"]
+#   total_bill += price * quantity
+# print("total items bill : ",total_bill)
+
+# //////////////////////////////////////////////
+
+# find expensive items
+
+# cart_items = [
+#   {
+#     "name" : "rice",
+#     "price" : 120,
+#     "quantity" : 3
+#   },
+#   {
+#     "name" : "daal",
+#     "price" : 320,
+#     "quantity" : 2
+#   },
+#   {
+#     "name" : "daal",
+#     "price" : 310,
+#     "quantity" : 2
+#   }
+# ]
+# exp_item_price = cart_items[0]["price"]
+# for i in cart_items:
+#   price = i["price"]
+#   if price > exp_item_price:
+#     exp_item_price = price
+#     print(i)
