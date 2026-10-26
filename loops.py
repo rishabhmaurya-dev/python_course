@@ -264,3 +264,13 @@
 # print("Expensive item : ",exp_item)
 
 # /////////////////////////////////////////////
+
+#print prime number from 1 to 50
+# num = 25
+# factor = 0
+# for i in range(2,num+1):
+#   for j in range(2,i):
+#     if i % j == 0:
+#       break
+#   else:
+#     print(i ,end=" ")
