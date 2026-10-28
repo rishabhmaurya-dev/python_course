@@ -299,5 +299,27 @@
 
 # print(even_sum)
 
-# ///////////////////////////////////////////
+# ///////////////////////////////////////////////
+
+# reverse a list without using reverse(),[::-1]
+
+# list1 = [1,12,3,24,434,5]
+
+# for index,value in enumerate(list1):
+#   idx = abs(index-len(list1)+1)
+#   if idx >= 0:
+#     print(list1[idx])
+
+# ////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
 
