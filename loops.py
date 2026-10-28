@@ -275,6 +275,9 @@
 #   else:
 #     print(i ,end=" ")
 
+
+# /////////////////////////////////////////////
+
 # removing negative numbers from the list 
 
 # list1 = [3,4,65,3,2,-64,-1,434,-4,-64]
@@ -283,3 +286,18 @@
 #   if i < 0:
 #     list1.remove(i)
 # print(list1)
+
+# //////////////////////////////////////////////////
+
+# sum of tuple even elements
+
+# tuple1 = (1,2,3,4,4,52,4,5,7,7,8,5,4)
+# even_sum = 0
+# for i in tuple1:
+#   if i % 2 == 0:
+#     even_sum += i
+
+# print(even_sum)
+
+# ///////////////////////////////////////////
+
