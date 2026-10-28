@@ -274,3 +274,12 @@
 #       break
 #   else:
 #     print(i ,end=" ")
+
+# removing negative numbers from the list 
+
+# list1 = [3,4,65,3,2,-64,-1,434,-4,-64]
+
+# for i in list1[:]:
+#   if i < 0:
+#     list1.remove(i)
+# print(list1)
